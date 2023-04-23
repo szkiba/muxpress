@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2023 Iván Szkiba
+#
+# SPDX-License-Identifier: MIT
+
+header: |-
+  [![Go Report Card](https://goreportcard.com/badge/github.com/szkiba/muxpress)](https://goreportcard.com/report/github.com/szkiba/muxpress)
+  [![GitHub Actions](https://github.com/szkiba/muxpress/workflows/Test/badge.svg)](https://github.com/szkiba/muxpress/actions?query=workflow%3ATest+branch%3Amaster)
+  [![Go Reference](https://pkg.go.dev/badge/github.com/szkiba/muxpress.svg)](https://pkg.go.dev/github.com/szkiba/muxpress)
+  [![codecov](https://codecov.io/gh/szkiba/muxpress/branch/master/graph/badge.svg?token=1234567890)](https://codecov.io/gh/szkiba/muxpress)
+footer: |-
+  ---
+  # JavaScript API
+repository:
+  url: https://github.com/szkiba/muxpress
+  defaultBranch: master
+  path: /
+templateFile:
+  file: magefiles/file.gotxt
+  package: magefiles/package.gotxt

@@ -1,0 +1,45 @@
+{{- if eq .Name "main" -}}
+	{{- header .Level .Dirname -}}
+{{- else -}}
+	{{- header .Level .Name -}}
+{{- end -}}
+
+{{- template "import" . -}}
+
+{{- template "doc" .Doc -}}
+
+{{- range .Examples -}}
+	{{- template "example" . -}}
+{{- end -}}
+
+---
+# API
+{{- spacer -}}
+
+{{- if len .Consts -}}
+
+	{{- header (add .Level 1) "Constants" -}}
+
+	{{- range .Consts -}}
+		{{- template "value" . -}}
+	{{- end -}}
+
+{{- end -}}
+
+{{- if len .Vars -}}
+
+	{{- header (add .Level 1) "Variables" -}}
+
+	{{- range .Vars -}}
+		{{- template "value" . -}}
+	{{- end -}}
+
+{{- end -}}
+
+{{- range .Funcs -}}
+	{{- template "func" . -}}
+{{- end -}}
+
+{{- range .Types -}}
+	{{- template "type" . -}}
+{{- end -}}
