@@ -41,7 +41,7 @@ Creates a new application instance.
 
 ##### Defined in
 
-index.d.ts:40
+[index.d.ts:40](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L40)
 
 ### Methods
 
@@ -66,7 +66,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:100
+[index.d.ts:100](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L100)
 
 ___
 
@@ -91,7 +91,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:50
+[index.d.ts:50](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L50)
 
 ___
 
@@ -116,7 +116,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:60
+[index.d.ts:60](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L60)
 
 ___
 
@@ -141,7 +141,7 @@ The instance for fluent/chaining API
 
 ##### Defined in
 
-index.d.ts:135
+[index.d.ts:135](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L135)
 
 ___
 
@@ -166,7 +166,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:110
+[index.d.ts:110](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L110)
 
 ___
 
@@ -191,7 +191,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:90
+[index.d.ts:90](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L90)
 
 ___
 
@@ -216,7 +216,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:70
+[index.d.ts:70](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L70)
 
 ___
 
@@ -241,7 +241,7 @@ You can provide multiple middleware functions.
 
 ##### Defined in
 
-index.d.ts:80
+[index.d.ts:80](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L80)
 
 ___
 
@@ -264,7 +264,7 @@ Mount static web content from given source directory.
 
 ##### Defined in
 
-index.d.ts:126
+[index.d.ts:126](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L126)
 
 ___
 
@@ -287,7 +287,7 @@ Uses the specified middleware function or functions.
 
 ##### Defined in
 
-index.d.ts:118
+[index.d.ts:118](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L118)
 
 
 <a name="interfacesrequestmd"></a>
@@ -318,7 +318,7 @@ Content-Type is `application/json`.
 
 ##### Defined in
 
-index.d.ts:155
+[index.d.ts:155](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L155)
 
 ___
 
@@ -330,7 +330,7 @@ This property is an object that contains cookies sent by the request.
 
 ##### Defined in
 
-index.d.ts:160
+[index.d.ts:160](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L160)
 
 ___
 
@@ -358,7 +358,7 @@ the header field value.
 
 ##### Defined in
 
-index.d.ts:207
+[index.d.ts:207](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L207)
 
 ___
 
@@ -386,7 +386,7 @@ the header field value.
 
 ##### Defined in
 
-index.d.ts:215
+[index.d.ts:215](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L215)
 
 ___
 
@@ -398,7 +398,7 @@ Contains a string corresponding to the HTTP method of the request: GET, POST, PU
 
 ##### Defined in
 
-index.d.ts:165
+[index.d.ts:165](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L165)
 
 ___
 
@@ -412,7 +412,7 @@ This object defaults to empty.
 
 ##### Defined in
 
-index.d.ts:172
+[index.d.ts:172](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L172)
 
 ___
 
@@ -424,7 +424,7 @@ Contains the path part of the request URL.
 
 ##### Defined in
 
-index.d.ts:177
+[index.d.ts:177](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L177)
 
 ___
 
@@ -436,7 +436,7 @@ Contains the request protocol string: either http or (for TLS requests) https.
 
 ##### Defined in
 
-index.d.ts:182
+[index.d.ts:182](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L182)
 
 ___
 
@@ -460,7 +460,7 @@ console.dir(req.query.color);
 
 ##### Defined in
 
-index.d.ts:199
+[index.d.ts:199](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L199)
 
 
 <a name="interfacesresponsemd"></a>
@@ -504,7 +504,7 @@ Appends the specified value to the HTTP response header field. If the header is 
 
 ##### Defined in
 
-index.d.ts:235
+[index.d.ts:235](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L235)
 
 ___
 
@@ -530,7 +530,7 @@ Sends a binray response. This method sends a response (with the "application/oct
 
 ##### Defined in
 
-index.d.ts:263
+[index.d.ts:263](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L263)
 
 ___
 
@@ -556,7 +556,7 @@ Sends a HTML text response. This method sends a response (with the correct conte
 
 ##### Defined in
 
-index.d.ts:256
+[index.d.ts:256](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L256)
 
 ___
 
@@ -582,7 +582,7 @@ Sends a JSON response. This method sends a response (with the correct content-ty
 
 ##### Defined in
 
-index.d.ts:242
+[index.d.ts:242](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L242)
 
 ___
 
@@ -609,7 +609,7 @@ Redirects to the URL, with specified status, a positive integer that corresponds
 
 ##### Defined in
 
-index.d.ts:311
+[index.d.ts:311](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L311)
 
 ___
 
@@ -639,7 +639,7 @@ Otherwise the method sets the Content-Type to "application/json" and convert par
 
 ##### Defined in
 
-index.d.ts:274
+[index.d.ts:274](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L274)
 
 ___
 
@@ -666,7 +666,7 @@ Sets the response’s HTTP header field to value.
 
 ##### Defined in
 
-index.d.ts:303
+[index.d.ts:303](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L303)
 
 ___
 
@@ -692,7 +692,7 @@ Sets the HTTP status for the response.
 
 ##### Defined in
 
-index.d.ts:281
+[index.d.ts:281](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L281)
 
 ___
 
@@ -719,7 +719,7 @@ Sends a plain text response. This method sends a response (with the correct cont
 
 ##### Defined in
 
-index.d.ts:250
+[index.d.ts:250](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L250)
 
 ___
 
@@ -749,7 +749,7 @@ mime the content type
 
 ##### Defined in
 
-index.d.ts:288
+[index.d.ts:288](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L288)
 
 ___
 
@@ -775,7 +775,7 @@ Adds the header field to the Vary response header.
 
 ##### Defined in
 
-index.d.ts:295
+[index.d.ts:295](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L295)
 
 
 <a name="modulesmd"></a>
@@ -817,4 +817,4 @@ Middleware defines middleware and request handler callback function.
 
 ##### Defined in
 
-index.d.ts:16
+[index.d.ts:16](https://github.com/szkiba/muxpress/blob/master/api/index.d.ts#L16)
