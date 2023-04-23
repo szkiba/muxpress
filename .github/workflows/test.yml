@@ -45,4 +45,4 @@ jobs:
 
       - name: Generate Go Report Card
         if: ${{ matrix.platform == 'ubuntu-latest' }}
-        uses: creekorful/goreportcard-action@v1
+        uses: creekorful/goreportcard-action@v1.0
