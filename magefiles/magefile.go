@@ -75,6 +75,10 @@ func Doc() error {
 		return err
 	}
 
+	if err := sh.Copy("docs/README.md", "README.md"); err != nil {
+		return err
+	}
+
 	return os.WriteFile("api/README.md", api, 0o644)
 }
 
