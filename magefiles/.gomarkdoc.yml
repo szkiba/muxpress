@@ -7,6 +7,8 @@ header: |-
   [![GitHub Actions](https://github.com/szkiba/muxpress/workflows/Test/badge.svg)](https://github.com/szkiba/muxpress/actions?query=workflow%3ATest+branch%3Amaster)
   [![Go Reference](https://pkg.go.dev/badge/github.com/szkiba/muxpress.svg)](https://pkg.go.dev/github.com/szkiba/muxpress)
   [![codecov](https://codecov.io/gh/szkiba/muxpress/branch/master/graph/badge.svg?token=JW61CYW2LZ)](https://codecov.io/gh/szkiba/muxpress)
+  [![Documentation](https://img.shields.io/badge/docs-reference-blue?logo=readme)](https://ivan.szkiba.hu/muxpress)
+
 footer: |-
   ---
   # JavaScript API
